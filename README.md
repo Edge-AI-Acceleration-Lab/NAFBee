@@ -1,3 +1,7 @@
+<a href="https://istd.sutd.edu.sg/people/phd-students/tomomasa-yamasaki">
+    <img src="https://github.com/tomomasayamasaki/LAXOR/blob/main/README/logo.png" alt="Tomo logo" title="Tomo" align="right" height="110" />
+</a>
+
 # NAFBee: Neural Network Activation Function Benchmark
 This is a benchmark for networks with a variety of activation functions. NAFBee provides network information and accuracy. User can obtain the accuracy without training. NAFBee is used for RBFleX-NAS.
 
