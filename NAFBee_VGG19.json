@@ -1,0 +1,57 @@
+{
+    "1": {
+        "network": "VGG19",
+        "activation": "ReLU",
+        "accuracy": 91.06
+    },
+    "2": {
+        "network": "VGG19",
+        "activation": "GELU",
+        "accuracy": 91.03
+    },
+    "3": {
+        "network": "VGG19",
+        "activation": "SiLU",
+        "accuracy": 91.03
+    },
+    "4": {
+        "network": "VGG19",
+        "activation": "LeakyReLU",
+        "accuracy": 90.75
+    },
+    "5": {
+        "network": "VGG19",
+        "activation": "ReLU6",
+        "accuracy": 90.61
+    },
+    "6": {
+        "network": "VGG19",
+        "activation": "Mish",
+        "accuracy": 90.54
+    },
+    "7": {
+        "network": "VGG19",
+        "activation": "Hardswish",
+        "accuracy": 89.94
+    },
+    "8": {
+        "network": "VGG19",
+        "activation": "CELU",
+        "accuracy": 88.36
+    },
+    "9": {
+        "network": "VGG19",
+        "activation": "ELU",
+        "accuracy": 87.01
+    },
+    "10": {
+        "network": "VGG19",
+        "activation": "Hardtanh",
+        "accuracy": 86.74
+    },
+    "11": {
+        "network": "VGG19",
+        "activation": "SELU",
+        "accuracy": 85.83
+    }
+}

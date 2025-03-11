@@ -1,0 +1,57 @@
+{
+    "1": {
+        "network": "BERT",
+        "activation": "ReLU",
+        "accuracy": 92.26
+    },
+    "2": {
+        "network": "BERT",
+        "activation": "GELU",
+        "accuracy": 92.97
+    },
+    "3": {
+        "network": "BERT",
+        "activation": "SiLU",
+        "accuracy": 86.77
+    },
+    "4": {
+        "network": "BERT",
+        "activation": "LeakyReLU",
+        "accuracy": 91.76
+    },
+    "5": {
+        "network": "BERT",
+        "activation": "ReLU6",
+        "accuracy": 91.60
+    },
+    "6": {
+        "network": "BERT",
+        "activation": "Mish",
+        "accuracy": 84.51
+    },
+    "7": {
+        "network": "BERT",
+        "activation": "Hardswish",
+        "accuracy": 85.23
+    },
+    "8": {
+        "network": "BERT",
+        "activation": "CELU",
+        "accuracy": 49.92
+    },
+    "9": {
+        "network": "BERT",
+        "activation": "ELU",
+        "accuracy": 49.92
+    },
+    "10": {
+        "network": "BERT",
+        "activation": "Hardtanh",
+        "accuracy": 49.92
+    },
+    "11": {
+        "network": "BERT",
+        "activation": "SELU",
+        "accuracy": 49.92
+    }
+}
