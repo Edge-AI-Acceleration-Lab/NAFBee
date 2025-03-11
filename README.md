@@ -5,6 +5,20 @@
 # NAFBee: Neural Network Activation Function Benchmark
 This is a benchmark for networks with a variety of activation functions. NAFBee provides network information and accuracy. User can obtain the accuracy without training. NAFBee is used for RBFleX-NAS.
 
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+![Python](https://img.shields.io/badge/python-v3.8+-blue.svg)
+![](https://img.shields.io/github/repo-size/tomomasayamasaki/NAFBee)
+![](https://img.shields.io/github/commit-activity/y/tomomasayamasaki/NAFBee)
+![](https://img.shields.io/github/last-commit/tomomasayamasaki/NAFBee)
+![](https://img.shields.io/github/languages/count/tomomasayamasaki/NAFBee)
+
+## 🟨 Creator Info
+### Tomomasa Yamasaki  
+Singapore University of Technology and Design (Sep 2021 intake)  
+Linkedin: https://www.linkedin.com/in/tomomasa/  
+Github: https://github.com/tomomasayamasaki
+
+
 ## 🟨 Requirement
 - python 3.x
 - PyTorch
