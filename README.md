@@ -1,7 +1,7 @@
 # NAFBee: Neural Network Activation Function Benchmark
 This is a benchmark for networks with a variety of activation functions. NAFBee provides network information and accuracy. User can obtain the accuracy without training. NAFBee is used for RBFleX-NAS.
 
-# Requirement
+## 🟨 Requirement
 - python 3.x
 - PyTorch
 ```
@@ -13,12 +13,12 @@ conda install pandas
 conda install scikit-learn
 ```
 
-# Datasets for this neural network benchmark
+## 🟨 Datasets for this neural network benchmark
 - CIFAR-10 for VGG19
 - SST-2 for BERT
 
-# How to use
-## 0. Import packages
+## 🟨 How to use
+### 0. Import packages
 ```python
 # VGG19
 import json
@@ -30,34 +30,34 @@ import json
 from BERT_model import BertModel
 ```
 
-## 1. Load NAFBee.json
+### 1. Load NAFBee.json
 ```python
 file_path = "NAFBee_VGG19.json" #or "NAFBee_BERT.json"
 with open(file_path, "r") as json_file:
     nafbee = json.load(json_file)
 ```
 
-## 2. Get the network information
+### 2. Get the network information
 ```python
 info = nafbee["1"] #you can input numbers from 1 to 11.
 print(info)
 
 #{'network': 'VGG19', 'activation': 'ReLU', 'accuracy': 91.06}
 ```
-## 3. All information of the No.1 network
+### 3. All information of the No.1 network
 ```python
 info_network = info["network"]
 info_activation = info["activation"]
 info_accuracy = info["accuracy"]
 ```
 
-## 4. Define the model on PyTorch
+### 4. Define the model on PyTorch
 ```python
 if "VGG" in info_network:
     model = VGG(info_network, info_activation)
 ```
 
-# Demo
+## 🟨 Demo
 You can see a program to get the model. You can add any program using the model on Pytorch such as training or scoring.
 ```python
 python NAFBee_VGG19.py #VGG19
@@ -66,11 +66,11 @@ python NAFBee_VGG19.py #VGG19
 python NAFBee_BERT.py #BERT
 ```
 
-# Citing RBFleX-NAS
+## 🟨 Citing RBFleX-NAS
 If you use NAFBee, please cite the following paper:
 ```
 XXXX
 ```
 
-# Licence
+## 🟨 Licence
 [MIT Licence](https://en.wikipedia.org/wiki/MIT_License)
